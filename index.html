@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CITAS</title>
+    <link rel="stylesheet" type="text/css" href="css/citas_slide.css" />
+
+    <script type="text/javascript" src="javascript/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="javascript/galeria.js"></script>
+    <script src="javascript/galeria_editable.js"></script>
+</head>
+
+<body>
+    <div class="contenido">
+        <nav>
+            <ul id="selector"></ul>
+        </nav>
+        <section id="caja">
+            <img id="foto" alt="" />
+            <div class="textos">
+                <p id="frase"></p>
+                <p id="persona"></p>
+            </div>
+        </section>
+        <div class="editar" id="editar">
+            <img src="images/carat-d-white.svg" alt="" />
+        </div>
+        <section id="datos">
+            <div contentEditable="false" id="persona_d"></div>
+            <div contentEditable="false" id="frase_d"></div>
+            <div contentEditable="false" id="foto_d"></div>
+            <div id="botones">
+                <ul>
+                    <li>
+                        <img src="images/edit-black.svg" alt="" id="guardar" />
+                    </li>
+                    <li>
+                        <img src="images/plus-black.svg" alt="" id="nuevo" />
+                    </li>
+                    <li>
+                        <img src="images/delete-black.svg" alt="" id="borrar" />
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
